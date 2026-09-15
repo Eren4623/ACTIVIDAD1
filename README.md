@@ -20,16 +20,17 @@ Los codigos css y js, son la forma de incomporar ya sea diseños o estilos de fo
 
 ## Estructura del documento
 index.html: Menú principal de navegación hacia los ejercicios.
-ejercicio1.html
-ejercicio2.html
-ejercicio3.html
-ejercicio4.html
-ejercicio5.html
-ejercicio6.html
-ejercicio7.html
-ejercicio8.html
-ejercicio9.html
-ejercicio10.html
+ejercicio1: se ejecuto un hola mundo que es lo basico.
+ejercicio2: se realiza los diferentes tamaños de encabezados (tamaños de letra).
+ejercicio3: se realiza modificación en la pagina, se modifica el color de fondo, se le agregan imagenes y links para otro sitio web.
+ejercicio4: en el cuarto ejercicio se realizan listas tanto numéricas como con algun caracter.
+ejercicio5: en este ejercicio se emplea lo que es la creación de tablas y su convinación, asi como el cambio de colores de la misma.
+ejercicio6: en el sexto se realiza lo mismo que en el quinto ejercicio con la diferencia que en esta ocasión se utiliza un archivo externo que es el css.
+ejercicio7: en este ejercicio se crean los colores en lineas de escritura para resaltar alguna linea o frase en específico.
+ejercicio8: en el octavo ejercicio se genera lo que son los botones y los enlaces.
+ejercicio9: en el noveno ejercicio se realizan lo que son las modificaciones de estilo (colores, animaciones) a los botenes y lineas de escritura (borde, color de fondo)
+ejercicio11: en este ejercicio retomaremos el hola mundo del ejercicio 1, con la diferencia que se le añadira un archivo externo de js para dar un mensjae antes de entrar a la pagina.
+ejercicio12: aqui utilizaremos un archivo externo de js pára poder realizar una suma de dos digitos.
 img/: Carpeta que contiene los recursos gráficos (ej. paisaje.jpg, viaje.jpg)
 css/: Carpeta que contiene archivos .css(ej. actividad8.css, actividad9.css, actividad10.css)
 js/: Carpeta con el archivo actividad10.js.
