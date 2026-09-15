@@ -16,3 +16,20 @@ Opera a través de etiquetas (que están encerradas entre signos de mayor y meno
 
 En la actual actividad sobre la cual estamos trabajando, se nos enseño lo basico del lenguaje html, a utilizar etiquetas para poner titulos, parrafos, cambiarle de colores a las cosas, asi como darles alguna animación.
 Los codigos css y js, son la forma de incomporar ya sea diseños o estilos de forma externa.
+
+
+## Estructura del documento
+index.html: Menú principal de navegación hacia los ejercicios.
+ejercicio1.html
+ejercicio2.html
+ejercicio3.html
+ejercicio4.html
+ejercicio5.html
+ejercicio6.html
+ejercicio7.html
+ejercicio8.html
+ejercicio9.html
+ejercicio10.html
+img/: Carpeta que contiene los recursos gráficos (ej. paisaje.jpg, viaje.jpg)
+css/: Carpeta que contiene archivos .css(ej. actividad8.css, actividad9.css, actividad10.css)
+js/: Carpeta con el archivo actividad10.js.
