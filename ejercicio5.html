@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>ejercicio5-tablas HTML</title>
+        <link rel="stylesheet" href="css/actividad6.css">
+        <style>
+        table{
+                width: 80;
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-family: sans-serif;
+                min-width: 400px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            }
+
+            th,
+            td{
+                padding: 12px 15px;
+                border-bottom: 1px solid #dddddd;
+            }
+
+            /*encabezados*/
+            th {
+                background-color: #009879;
+                color: #ffffff;
+                text-align: left;
+            }
+
+            tbody tr:hover {
+                background-color: #f3f3f3;
+            }
+
+            tfoot {
+                background-color: #009879;
+                color: #ffffff;
+                text-align: center;
+            }
+
+            caption {
+                caption-side: bottom;
+                margin-top: 10px;
+                font-style: italic;
+                color: #666;
+            }
+
+            tbody tr:nth-of-type(even){
+                background-color: #f9f9f9;
+            }
+            </style>
+    </head>
+
+    <body>
+        
+        <h1>Ejercicio5 - tablas html</h1>
+        <h2>Horario semanal de clases - 2do año de bases de datos</h2>
+        <table>
+            <!--encabezados-->
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>jueves</th>
+                <th>viernes</th>
+            </tr>
+        </thead>
+        <!--cuerpo-->
+        <tbody>
+            <!--fila 1-->
+            <tr>
+                <td>08:00 - 10:00</td>
+                <td>Programación web</td>
+                <td>Algoritmos</td>
+                <td>Bases de datos</td>
+                <td>Matemáticas discretas</td>
+                <td>--</td>
+            </tr>
+            <!--fila 2 -->
+            <tr>
+                <td>10:00 - 12:00</td>
+                <td>Programación web</td>
+                <td>Algoritmos</td>
+                <td>Bases de datos</td>
+                <td>Matemáticas discretas</td>
+                <td>--</td>
+            </tr>
+            <!--fila 3-->
+            <tr>
+                <td>13:00 - 15:00</td>
+                <td>Sistemas operativos</td>
+                <td>Programación web</td>
+                <td>Matemáticas discretas</td>
+                <td>Algoritmos</td>
+                <td>--</td>
+            </tr>
+            <!--fila 4-->
+            <tr>
+                <td>15:00 - 17:00</td>
+                <td>Sistemas operativos</td>
+                <td>Programación web</td>
+                <td>Matemáticas discretas</td>
+                <td>Algoritmos</td>
+                <td>--</td>
+            </tr>
+        </tbody>
+        <!--pie-->
+        <tfoot>
+            <tr>
+                <td colspan="6"> Horario vigente - 2do cuatrimestre 2024 </td>
+            </tr>
+        </tfoot>
+        </table>
+    
+    </body>
+    
+    
+<!--cambiamos tipo de letra, cambiamos el h2 a un color diferente, al h1 le especificamos el tamaño de 50-->
+</html>
